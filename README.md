@@ -6,9 +6,9 @@
 ## 软件示意
 
 ### 本地平台
-![示意图1](./assets/your-first-animation.gif)
+![示意图1](./本地平台.gif)
 
 ### 实时平台
-![示意图2](./assets/your-second-animation.gif)
+![示意图2](./实时平台.gif)
 
 
