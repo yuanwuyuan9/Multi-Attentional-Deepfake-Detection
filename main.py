@@ -39,7 +39,15 @@ from dashscope.audio.tts import SpeechSynthesizer
 import pygame
 from dashscope import Generation
 
-dashscope.api_key = 'sk-079a674030fb4bfd9fd03ea551220ac8'
+# 获取 API 密钥
+dash_api_key = os.getenv("DASH_API_KEY")
+
+# 确保环境变量存在
+if dash_api_key:
+    print("API 密钥已成功加载！")
+else:
+    print("未找到 API 密钥，请确保已设置环境变量。")
+
 
 '''
 
